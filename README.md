@@ -27,4 +27,4 @@ A simple and lightweight WhatsApp web clone for learning and practice purposes.
 
 ## 📌 Author
 
-Developed by [Your Name]
+Developed by [Anushri Kumari]
