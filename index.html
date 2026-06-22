@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Clone using html & css</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <header>
+                <a href="#" class="logo">WhatsApp</a>
+                <div class="action">
+                    <a href="#"><ion-icon name="camera-outline" id="headerCameraBtn"></ion-icon></a>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+            </header>
+            <div class="tabs">
+                <input id="chats" type="radio" name="group" checked>
+                <input id="status" type="radio" name="group">
+            <input id="calls" type="radio" name="group">
+
+            <div class="buttons">
+                <label for="chats">Chats</label>
+                <label for="status">Status</label>
+                <label for="calls">Calls</label>
+                <div class="underline"></div>
+            </div>
+
+            <div class="quickBtn">
+                <div class="btn message">
+
+                    <ion-icon name="chatbubble"></ion-icon>
+                </div>
+                <div class="btn camers">
+                    <div class="pencil"><ion-icon name="pencil-sharp"></ion-icon></div>
+                    <ion-icon name="camera"></ion-icon>
+                </div>
+                <div class="btn call"><ion-icon name="call"></ion-icon></div>
+
+            </div>
+
+            <div class="content">
+                <div class="box chats">
+                    <div class="search_chat">
+                        <div>
+                            <input id="chatSearchInput" type="text" placeholder="Search or start new chat">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <div class="chatlist">
+                            <div class="block unread">
+                                <div class="imgbx">
+                                    <img src="image/Alex.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Alex</h4>
+                                        <p class="time">10:56</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>How to make a whatsapp clone using html & css</p>
+                                        <b>1</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/surbhi.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>surbhi yadav</h4>
+                                        <p class="time">05:26</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>hello</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block unread ">
+                                <div class="imgbx">
+                                    <img src="image/lado.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Lado</h4>
+                                        <p class="time">yesterday</p>
+
+                                    </div>
+                                    <div class="message_p">
+                                        <p>send for processing</p>
+                                        <b>5</b>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/suraj.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>suraj</h4>
+                                        <p class="time">yesterday</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p> bye</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/joseph.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Joseph</h4>
+                                        <p class="time">05/11/2026</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>plz wait....</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/ashraf.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Ashraf</h4>
+                                        <p class="time">03/03/2026</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Hii! I found you on justdial</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/Diana.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Diana</h4>
+                                        <p class="time">25/10/2025</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>oh okey,i get better soon</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/ali.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Ali Ahmad</h4>
+                                        <p class="time">24/10/2025</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Congrats</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/prachi.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Prachi Sinha</h4>
+                                        <p class="time">05/9/2025</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Happy Brithday</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/sgt.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>SGT Internship 2026</h4>
+                                        <p class="time">12/6/2026</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>business card</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/shubhanshu.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Shubhanshu</h4>
+                                        <p class="time">yesterday</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>HighFlow.zip</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/anjali.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Anjali colg</h4>
+                                        <p class="time">10/06/2026</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Nhi padha hai</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/mom.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Mom</h4>
+                                        <p class="time">09/06/2026</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>hmm</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block unread">
+                                <div class="imgbx">
+                                    <img src="image/RMLAU.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>BCA IV Sem session 2026</h4>
+                                        <p class="time">02/06/2026</p>
+
+                                    </div>
+                                    <div class="message_p">
+                                        <p>all student....</p>
+                                        <b>3</b>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ">
+                                <div class="imgbx">
+                                    <img src="image/anchal.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Anchal Maurya</h4>
+                                        <p class="time">29/05/2026</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>do you means</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box status">
+                    <div class="data">
+                        <div class="chatlist">
+                            <div class="block">
+                                <div class="imgbx">
+                                    <img src="image/prachi.png">
+                                </div>
+                                <div class="plus">+</div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>My Status</h4>
+
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Tap to add status update</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <label>Recent Update</label>
+                            <div class="block unseen">
+                                <div class="imgbx">
+                                    <img src="image/suraj.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>suraj</h4>
+                                    </div>
+                                    <div class="message_p">
+                                        <p> Just Now</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block unseen">
+                                <div class="imgbx">
+                                    <img src="image/shubhanshu.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>shubhanshu</h4>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>45 mintues ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <label>Viewed Updates</label>
+                            <div class="block seen">
+                                <div class="imgbx">
+                                    <img src="image/anchal.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Anchal Maurya</h4>
+
+                                    </div>
+                                    <div class="message_p">
+                                        <p> yesterday, 21:16</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block seen">
+                                <div class="imgbx">
+                                    <img src="image/Diana.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Diana</h4>
+
+                                    </div>
+                                    <div class="message_p">
+                                        <p> yesterday, 5:16</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block seen">
+                                <div class="imgbx">
+                                    <img src="image/ali.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Ali Ahmand</h4>
+
+                                    </div>
+                                    <div class="message_p">
+                                        <p> yesterday, 9:10</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block seen">
+                                <div class="imgbx">
+                                    <img src="image/ashraf.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Ashraf</h4>
+
+                                    </div>
+                                    <div class="message_p">
+                                        <p> yesterday, 71:33</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="box calls">
+                    <div class="data">
+                        <div class="chatlist">
+                            <div class="block">
+                                <div class="imgbx green">
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Create call link</h4>
+                                        <p class="time">10:56</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Share a link for your WhatsApp call</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <label>Recent</label>
+                            <div class="block">
+                                <div class="imgbx">
+                                    <img src="image/anchal.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Anchal Maurya</h4>
+
+                                    </div>
+                                    <div class="message_p incoming">
+                                        <p><ion-icon name="arrow-down"></ion-icon>31/02/2026, 05:16</p>
+                                    </div>
+                                </div>
+                                <ion-icon name="call" class="call"></ion-icon>
+                            </div>
+
+                            <div class="block">
+                                <div class="imgbx">
+                                    <img src="image/ali.png">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Ali Ahmand</h4>
+
+                                    </div>
+                                    <div class="message_p outgoing">
+                                        <p> <ion-icon name="arrow-up"></ion-icon>28/04/2026, 21:16</p>
+                                    </div>
+                                </div>
+                                <ion-icon name="call" class="call"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="welcomeScreen">
+            <div class="welcome_content">
+                <div class="welcome_img">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </div>
+                <h2>WhatsApp Web</h2>
+                <p>Send and receive messages without keeping your phone online.</p>
+                <div class="encryption">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <span>End-to-end encrypted</span>
+                </div>
+            </div>
+        </div>
+        <div class="chatBox hide">
+            <div class="chat_header">
+                <div class="imgcontent">
+                    <ion-icon name="arrow-back-sharp" class="back"></ion-icon>
+                    <div class="imgBx">
+                        <img src="image/Alex.png">
+                    </div>
+                    <h3>Alex Smith<br><span>Online</span></h3>
+                </div>
+                <div class="actionBtns">
+                    <ion-icon name="videocam"></ion-icon>
+                    <ion-icon name="call"></ion-icon>
+                    <ion-icon name="ellipsis-vertical"></ion-icon>
+                </div>
+            </div>
+            <div class="messageBox">
+                <div class="messageContainer">
+                    <div class="message">How to make whatsapp clone using html & css ?<br><span class="time">10:19</span>
+                    </div>
+                </div>
+                <!-- Emoji Picker Panel -->
+                <div class="emoji-popover hide" id="emojiPopover">
+                    <span class="emoji-item">😀</span>
+                    <span class="emoji-item">😂</span>
+                    <span class="emoji-item">😍</span>
+                    <span class="emoji-item">👍</span>
+                    <span class="emoji-item">🙏</span>
+                    <span class="emoji-item">🔥</span>
+                    <span class="emoji-item">🎉</span>
+                    <span class="emoji-item">❤️</span>
+                    <span class="emoji-item">😎</span>
+                    <span class="emoji-item">✨</span>
+                </div>
+                <!-- Attachment Picker Panel -->
+                <div class="attach-popover hide" id="attachPopover">
+                    <div class="attach-item" data-type="document"><ion-icon name="document-text-outline"></ion-icon><span>Document</span></div>
+                    <div class="attach-item" data-type="image"><ion-icon name="image-outline"></ion-icon><span>Photos</span></div>
+                    <div class="attach-item" data-type="camera"><ion-icon name="camera-outline"></ion-icon><span>Camera</span></div>
+                </div>
+                <div class="messageInput">
+                    <div class="input">
+                        <ion-icon name="happy-outline" id="emojiIconBtn"></ion-icon>
+                        <input type="text" placeholder="Message">
+
+                        <ion-icon name="attach-outline" class="deg45" id="attachIconBtn"></ion-icon>
+                        <ion-icon name="camera" id="chatCameraBtn"></ion-icon>
+                    </div>
+                    <input type="file" id="fileInput" style="display: none;">
+                    <div class="send-btn" id="sendBtn">
+                        <ion-icon name="send"></ion-icon>
+                    </div>
+                    <div class="mic" id="micBtn">
+                        <ion-icon name="mic"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Calling Overlay Modal -->
+        <div class="calling-modal hide" id="callingModal">
+            <div class="calling-content">
+                <img id="callingAvatar" src="image/Alex.png" class="calling-avatar">
+                <h2 id="callingName">Alex</h2>
+                <p id="callingStatus">Ringing...</p>
+                <div class="calling-actions">
+                    <button class="decline-btn" id="declineCallBtn">
+                        <ion-icon name="close-circle-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Camera Viewer Overlay Modal -->
+        <div class="camera-modal hide" id="cameraModal">
+            <div class="camera-content">
+                <video id="cameraVideo" autoplay playsinline></video>
+                <div class="camera-actions">
+                    <button id="capturePhotoBtn" class="capture-btn">
+                        <ion-icon name="aperture-outline"></ion-icon>
+                    </button>
+                    <button id="closeCameraBtn" class="decline-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Delete Message Modal -->
+        <div class="delete-modal hide" id="deleteModal">
+            <div class="delete-content">
+                <h3>Delete message?</h3>
+                <button id="deleteEveryoneBtn">Delete for Everyone</button>
+                <button id="deleteMeBtn">Delete for Me</button>
+                <button id="cancelDeleteBtn" class="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
